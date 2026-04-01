@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 ################################################################################
-# Log EPS (Events Per Second) Monitor
+# Syslog Event Stream Monitor
 # Assesses incoming syslog traffic on this Linux host
 #
-# Author: Security Operations
+# Author: MS-ek
 # Version: 1.1
 #
 ################################################################################
