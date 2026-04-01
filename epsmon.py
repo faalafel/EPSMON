@@ -623,7 +623,7 @@ def print_summary(dur_label):
         print(f"  Storage  -   1 day    : {format_bytes(bytes_1d)}")
         print(f"  Storage  -  31 days   : {format_bytes(bytes_31d)}")
         print(f"  {C.DIM}Note: actual storage with compression is typically"
-              f" 5-10x smaller.{C.NC}")
+              f" smaller.{C.NC}")
     else:
         print("  Insufficient data to calculate storage estimates.")
     print(f"{SEP_HEAVY[:w]}\n")
@@ -691,7 +691,7 @@ def save_summary_to_file(dur_label):
             f"  Projected EPS         : {avg_eps:.2f}",
             f"  Storage  -   1 day    : {format_bytes(bytes_1d)}",
             f"  Storage  -  31 days   : {format_bytes(bytes_31d)}",
-            "  Note: actual storage with compression is typically 5-10x smaller.",
+            "  Note: actual storage with compression is typically smaller.",
         ]
     else:
         lines.append("  Insufficient data to calculate storage estimates.")
