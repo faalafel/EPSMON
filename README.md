@@ -157,7 +157,7 @@ At the end of every session, a full summary is printed to the terminal and saved
   Projected EPS         : 38.52
   Storage  -   1 day    : 643.12 MB
   Storage  -  31 days   : 19.45 GB
-  Note: actual storage with compression is typically 5-10x smaller.
+  Note: actual storage with compression is typically smaller.
 ==========================================================
 ```
 
